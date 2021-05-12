@@ -1,0 +1,246 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+header
+{
+    background-image: url(background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline;
+}
+.main-nav a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a {
+    border: 1px solid rgb(26, 25, 25);
+
+}
+.main-nav li a:hover 
+{
+    border: 1px solid black;
+}
+
+
+h1
+{
+    color:white;
+    font-size: 70px;
+    text-align: left;
+    margin-top: 150px;
+    font-family: "Roboto", sans-serif;
+}
+  
+
+body 
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("background.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+p 
+{
+    color: white;
+    font-size: 20px;
+    
+}
+h2
+{
+    
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    color:white;
+}
+
+
+
+h3
+{
+    
+    color:white;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h4
+{
+    color:white;
+
+}
+  
+  h5 
+  {
+    font-size: 20px;
+    margin-right: 600px;
+    float: right;
+    margin-top: 100px;
+  } 
+
+
+.skillset
+{
+    font-size: 30px;
+    color:white;
+    list-style-type: circle; 
+    
+}
+
+
+.hero{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.text 
+{
+    position: absolute;
+    left: 350px;
+    color: white;
+}
+img
+{
+    position: absolute;
+    left: 0%;
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+    margin-right: 100px;
+    margin-top: 130px;
+}
+
+.contacts
+{
+    float: left;
+}
+
+
+
+* {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+*:focus {
+	outline: 0;
+}
+
+
+.container {
+
+    position: absolute;
+    left: 500px;
+	padding: 12px 24px 24px 24px;
+	margin: 0px 12px;
+	background: #808181;
+	border-radius: 4px;
+    
+}
+
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid green;
+}
+
+input[type=submit] {
+	background: #64B5F6;
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+input[type=submit]:focus {
+	background: #A5D6A7;
+	color: whitesmoke;
+}
+
+input[type=submit]:hover {
+	background: #2196F3;
+}
+
+.center {
+	text-align: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #1386e4;
+    color: white;
+  }
+
+  .fa-github {
+    background:white;
+    color:black;
+  }
+
