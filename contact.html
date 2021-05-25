@@ -2,96 +2,104 @@
 <html>
   <head>
     <title>Personal_Website</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href = "css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content= "width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7e32e92280.js" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-  </head>
+</head>
   <body>
-    <h2>
-      <div class="row">
-        <ul class="main-nav">
-          <li><a href="Index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="skills.html">SKILLS</a></li>
-          <li><a href="portfolio.html">PORTFOLIO</a></li>
-          <li class="active"><a href="contact.html">CONTACT</a></li>
-        </ul>
+    
+    <div class="banner">
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">ituDev.</label>
+        <ul>
+              <li class="active"><a href ="index.html">Home</a></li>
+              <li><a href ="about.html">About</a></li>
+              <li><a href ="skills.html">Skills</a></li>
+              <li><a href ="portfolio.html">Portfolio</a></li>
+              <li><a href ="contact.html">contact</a></li>
+          </ul>
+      </nav>
+      <section>
+        <div class="contentContacts">
+          <div class="allContacts">
+          <div class="contactDetais"><h1>Contact Details</h1>
+            <p>Phone: +27718760048</p>
+      
+            <p>
+              Email:
+              <a href="mailto: tumimatheba@gmail.com" target="blank"
+                >tumimatheba@gmail.com</a>
+                
+            </p>
+            </div>
+          
+          
+          <div class="socialMedia">
+          <a
+            href="https://www.facebook.com/itumeleng.matheba"
+            class="fa fa-facebook"
+            target="blank"
+          ></a>
+          <a
+            href="https://twitter.com/TumiMatheba"
+            class="fa fa-twitter"
+            target="blank"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/matlale-matheba-982940179/"
+            class="fa fa-linkedin"
+            target="blank"
+          ></a>
+          <a
+            href="https://github.com/tumimatheba"
+            class="fa fa-github"
+            target="blank"
+          ></a>
+        </div>
       </div>
-    </h2>
-    <div class="contactsBody">
-      <br />
-      <br />
-      <h3>Contact Details</h3>
-      <br />
-      <br />
-      <div class="contacts">
-        <h4>Phone: +27718760048</h4>
-        <br />
-        <h4>
-          Email:
-          <a href="mailto: tumimatheba@gmail.com" target="blank"
-            >tumimatheba@gmail.com</a
-          >
-        </h4>
-        <br />
-        <br />
-        <a
-          href="https://www.facebook.com/itumeleng.matheba"
-          class="fa fa-facebook"
-          target="blank"
-        ></a>
-        <a
-          href="https://twitter.com/TumiMatheba"
-          class="fa fa-twitter"
-          target="blank"
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/matlale-matheba-982940179/"
-          class="fa fa-linkedin"
-          target="blank"
-        ></a>
-        <a
-          href="https://github.com/tumimatheba"
-          class="fa fa-github"
-          target="blank"
-        ></a>
-      </div>
-    </div>
-
-    <div class="container">
-      <h3>Contact Form</h3>
-      <form action="#" name="contact_form">
-        <label for="first_name">First Name</label>
-        <input name="first_name" type="text" required placeholder="Name" />
-        <br />
-        <label for="last_name">Last Name</label>
-        <input name="last_name" type="text" required placeholder="Last Name" />
-        <br />
-        <label for="email">Email</label>
-        <input
-          name="email"
-          type="email"
-          required
-          placeholder="you@domain.com"
-        />
-        <br />
-        <label for="message">Message</label><br />
-        <textarea
+      <div class="contact">
+        <form action="#" name="contact_form">
+          <input name="first_name" type="text" required placeholder="Name" />
+          <br />
+          
+          
+          
+          <input
+            name="email"
+            type="email"
+            required
+            placeholder="you@domain.com"
+          />
+          <br />
+         
+          <textarea
           name="message"
-          cols="30"
-          rows="10"
+          cols="8"
+          rows="4"
           placeholder="Enter your message here ..."
           required
         >
         </textarea>
-        <div class="center">
-          <input type="submit" value="Submit" />
+          <div class="center">
+            <input type="submit" value="Submit" />
+          
         </div>
-      </form>
-    </div>
+        </form>
+  </div>
+        </div>
+      </section>
+  </div>
   </body>
 </html>
