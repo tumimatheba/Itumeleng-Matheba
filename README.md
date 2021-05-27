@@ -1,3 +1,3 @@
-# Portfolio_Website
+# Itumeleng_Website
 
 https://tumimatheba.github.io/Itumeleng-Matheba/index.html
