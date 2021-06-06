@@ -124,7 +124,7 @@ a:hover {
   font-weight: bolder;
 }
 .content2 p {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Nunito Sans", sans-serif;
   font-weight: bold;
   padding-right: 40%;
@@ -140,26 +140,28 @@ a:hover {
 }
 .contentSkills {
   list-style: none;
-  padding-left: 30px;
   padding-top: 50px;
+  text-align: center;
+  
 }
 .contentSkills h1 {
-  font-size: 40px;
+  font-size: 60px;
   color: rgb(209, 97, 22);
   padding-bottom: 25px;
 }
 
 .contentSkills li {
-  font-size: 35px;
+  font-size: 45px;
   color: #fff;
   padding-bottom: 15px;
-  padding-left: 15px;
+  
 }
 
 .fab {
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   color: rgb(209, 97, 22);
+ 
 }
 
 .contentPortfolio {
@@ -306,6 +308,14 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 1025px) {
+
+  section {
+    background: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.788)),
+      url(background.jpg);
+    background-size: cover;
+    height: 190vh;
+  }
+
   .content {
     text-align: center;
     color: #fff;
@@ -538,7 +548,7 @@ input[type="submit"]:hover {
   .contact {
     position: absolute;
     top: 250px;
-    left: 550px;
+    left: 480px;
     padding: 12px 24px 24px 24px;
     margin: 0px 12px;
     background: grey;
@@ -549,7 +559,7 @@ input[type="submit"]:hover {
   input[type="email"],
   textarea {
     width: 100%;
-    font-size: 35px;
+    font-size: 20px;
     padding: 18px;
     border: 1px solid rgb(209, 97, 22);
     border-radius: 4px;
@@ -568,7 +578,7 @@ input[type="submit"]:hover {
   input[type="submit"] {
     background: rgb(209, 97, 22);
     width: 100%;
-    font-size: 35px;
+    font-size: 28px;
 
     color: white;
     border: 0;
@@ -592,7 +602,7 @@ input[type="submit"]:hover {
     text-align: center;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 811px) {
   section {
     background: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.788)),
       url(background.jpg);
@@ -752,7 +762,10 @@ input[type="submit"]:hover {
     list-style: none;
     padding-left: 30px;
     padding-top: 30px;
+    text-align: left;
   }
+  
+
   .contentSkills h1 {
     font-size: 55px;
     color: rgb(209, 97, 22);
@@ -804,7 +817,7 @@ input[type="submit"]:hover {
     font-family: "Nunito Sans", sans-serif;
   }
   .contentContacts p {
-    font-size: 18px;
+    font-size: 22px;
     font-family: "Nunito Sans", sans-serif;
     padding-right: 40%;
     padding-top: 50px;
