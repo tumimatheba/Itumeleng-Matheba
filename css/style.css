@@ -89,7 +89,7 @@ nav .active {
   background-color:rgb(209, 97, 22) ;
   line-height: 27px;
   border-radius: 3px;
-  padding: 3px;
+  padding: 3px 3px 3px 3px;
 }
 nav a.active,
 a:hover {
@@ -171,12 +171,13 @@ a:hover {
   padding-top: 50px;
 }
 .contentPortfolio h1 {
-  font-size: 45px;
+  font-size: 60px;
   color: rgb(209, 97, 22);
-  font-family: "Nunito Sans", sans-serif;
+  
+  font-weight: bolder;
 }
 .contentPortfolio p {
-  font-size: 25px;
+  font-size: 40px;
   font-family: "Nunito Sans", sans-serif;
   padding-right: 40%;
   padding-top: 30px;
