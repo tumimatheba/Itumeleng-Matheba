@@ -560,7 +560,7 @@ input[type="submit"]:hover {
   input[type="email"],
   textarea {
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
     padding: 18px;
     border: 1px solid rgb(209, 97, 22);
     border-radius: 4px;
@@ -579,7 +579,7 @@ input[type="submit"]:hover {
   input[type="submit"] {
     background: rgb(209, 97, 22);
     width: 100%;
-    font-size: 28px;
+    font-size: 22px;
 
     color: white;
     border: 0;
@@ -757,8 +757,46 @@ input[type="submit"]:hover {
   }
 
   .contact {
-    display: none;
+   
+    position: absolute;
+    left: 50px;
+    margin-top: 350px;
+   
   }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    font-size: 14px;
+    padding: 18px;
+    border: 1px solid rgb(209, 97, 22);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    border: 1px solid green;
+  }
+
+  input[type="submit"] {
+    background: rgb(209, 97, 22);
+    width: 100%;
+    font-size: 16px;
+
+    color: white;
+    border: 0;
+    padding: 18px 30px;
+    border-radius: 4px;
+    transition: all ease-in-out 0.1s;
+
+    text-align: center;
+  }
+
   .contentSkills {
     list-style: none;
     padding-left: 30px;
